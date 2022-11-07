@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+}
+.section-1 {
+  align-items: center;
+  height: 600px;
+  background-image: url("/images/details_banner.png");
+}
+.headline {
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  font-size: 40px;
+}
+.section-2 {
+  height: 700px;
+  background-color: crimson;
+}
+.section-3 {
+  height: 600px;
+}
+.section-4 {
+  height: 800px;
+}
+.section-5 {
+  height: 800px;
+}
+.logo {
+  float: left;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.buttons {
+  float: left;
+  margin-left: 220px;
+  margin-top: 25px;
+}
+.headbtn {
+  margin-left: 20px;
+  border: none;
+}
