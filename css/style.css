@@ -17,7 +17,7 @@
   background-image: url("/images/details_banner.png");
   display: flex;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
 }
 .headfont {
   font-family: "Roboto", sans-serif;
