@@ -3,15 +3,23 @@
   padding: 0;
 }
 .header {
-  height: 70px;
+  height: 60px;
   background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .section-1 {
-  align-items: center;
   height: 600px;
   background-image: url("/images/details_banner.png");
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 }
-.headline {
+.headfont {
   font-family: "Roboto", sans-serif;
   color: aliceblue;
   font-size: 40px;
@@ -29,17 +37,18 @@
 .section-5 {
   height: 800px;
 }
-.logo {
-  float: left;
-  margin-left: 70px;
-  margin-top: 20px;
+.headbtn {
+  border: none;
+  margin-left: 25px;
+  margin-bottom: 25px;
 }
 .buttons {
-  float: left;
-  margin-left: 220px;
-  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
 }
-.headbtn {
-  margin-left: 20px;
-  border: none;
+.touchbtn {
+  background-color: white;
+  color: black;
+  border: 2px solid #252525;
+  padding: 15px 32px;
 }
