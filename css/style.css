@@ -150,11 +150,6 @@
   margin-bottom: 20px;
   font-family: "Playfair Display", serif;
 }
-
-.footer {
-  height: 800px;
-  background-image: url("/images/footer-bg.png");
-}
 .headbtn {
   border: none;
   margin-left: 25px;
@@ -175,4 +170,46 @@
   color: black;
   border: 1px solid #252525;
   padding: 25px 45px;
+}
+.footer {
+  height: 500px;
+  background-image: url("/images/footer-bg.png");
+  padding: 200px 100px;
+  display: flex;
+}
+.logos {
+  height: 450px;
+  width: 30%;
+}
+.logos img {
+  margin-left: 60px;
+}
+.info {
+  display: flex;
+  height: min-content;
+  width: max-content;
+  border-bottom: 1px solid#888888;
+}
+.info h1 {
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+.info p {
+  color: #929292;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+.info button {
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  border: 1px solid #ffffff;
+  padding: 20px 50px;
+  margin-left: 80px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.nav-menu {
+  background-color: tomato;
 }
