@@ -204,7 +204,7 @@ ul li {
 .info {
   display: flex;
   height: min-content;
-  width: 70%;
+  width: 100%;
   border-bottom: 1px solid#888888;
 }
 .info h1 {
@@ -227,6 +227,28 @@ ul li {
   margin-top: 10px;
   margin-bottom: 60px;
 }
-.foot-menu {
-  background-color: yellow;
+.foot-menu-bar {
+  display: flex;
+  margin-top: 110px;
+}
+.ftmenu {
+  width: 25%;
+  color: white;
+  font-size: 15px;
+}
+.ftmenu p {
+  font-family: "Roboto", sans-serif;
+}
+.ftmenu ul {
+  float: left;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.ftmenu li {
+  text-align: justify;
+  float: right;
+  margin-left: 0px;
+  color: #686868;
+  font-family: "Roboto", sans-serif;
 }
