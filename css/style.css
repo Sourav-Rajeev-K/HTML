@@ -204,7 +204,7 @@ ul li {
 .info {
   display: flex;
   height: min-content;
-  width: max-content;
+  width: 70%;
   border-bottom: 1px solid#888888;
 }
 .info h1 {
@@ -226,4 +226,7 @@ ul li {
   margin-left: 80px;
   margin-top: 10px;
   margin-bottom: 60px;
+}
+.foot-menu {
+  background-color: yellow;
 }
