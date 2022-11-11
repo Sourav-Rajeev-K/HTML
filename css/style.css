@@ -252,3 +252,14 @@ ul li {
   color: #686868;
   font-family: "Roboto", sans-serif;
 }
+.soclogo {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.logos i {
+  color: white;
+  background: #494949;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
