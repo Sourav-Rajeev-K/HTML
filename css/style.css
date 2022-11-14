@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container {
-  margin: 0px auto;
+  margin: 25px 50px;
   justify-content: space-between;
   display: flex;
   width: 80%;
@@ -14,12 +14,9 @@
 }
 
 .header {
-  height: 60px;
   background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 15px;
 }
 .section-1 {
   height: 600px;
@@ -39,16 +36,23 @@
   font-size: 20px;
   text-align: center;
 }
+ul {
+  text-align: center;
+}
 ul li {
   border: none;
-  margin-left: 25px;
+  margin-left: 15px;
   margin-bottom: 25px;
   list-style: none;
   display: inline-block;
   text-align: center;
+  font-size: 11px;
+  font-family: "Roboto", sans-serif;
 }
 .headbtn {
   border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
 }
 .section-2 {
   padding: 30px 20px;
@@ -173,8 +177,7 @@ ul li {
 .buttons {
   display: flex;
   justify-content: space-between;
-  width: 60%;
-  font-size: 14px;
+  padding-top: 10px;
 }
 .touchbtn {
   background-color: white;
