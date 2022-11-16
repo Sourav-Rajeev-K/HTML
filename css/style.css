@@ -310,6 +310,14 @@ ul li {
       float: right;
       display: block;
    }
+   .headfont h1 {
+      font-size: 40px;
+   }
+   .headfont p {
+      font-size: 20px;
+      text-align: center;
+      margin: 0%;
+   }
 }
 @media (max-width: 500px) {
    .buttons {
