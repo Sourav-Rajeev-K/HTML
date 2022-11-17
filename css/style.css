@@ -10,10 +10,10 @@
 }
 .das {
    text-decoration: none;
-   color: rgb(0, 0, 0);
+   color: #000000;
 }
 .header {
-   background-color: rgb(255, 255, 255);
+   background-color: #ffffff;
    display: flex;
    justify-content: center;
 }
@@ -33,12 +33,12 @@
 }
 .headfont h1 {
    font-family: "Roboto", sans-serif;
-   color: white;
+   color: #ffffff;
    font-size: 70px;
 }
 .headfont p {
    font-family: "Playfair Display", serif;
-   color: white;
+   color: #ffffff;
    font-size: 20px;
    justify-content: center;
 }
@@ -57,7 +57,7 @@ ul li {
 }
 .dpdn ul {
    display: none;
-   background-color: white;
+   background-color: #ffffff;
 }
 .dpdn:hover ul {
    display: block;
@@ -82,13 +82,13 @@ ul li {
 }
 .section-2 h6 {
    font-family: "Roboto", sans-serif;
-   color: rgb(138, 138, 138);
+   color: #afafaf;
    text-align: center;
    margin-top: 60px;
 }
 .section-2 h3 {
    font-family: "Roboto", sans-serif;
-   color: black;
+   color: #000000;
    text-align: center;
    font-size: 45px;
    margin-top: 10px;
@@ -114,7 +114,7 @@ ul li {
 .card p {
    margin-top: 10px;
    text-align: center;
-   color: #686868;
+   color: #afafaf;
 }
 .card h2 {
    margin-top: 20px;
@@ -130,18 +130,18 @@ ul li {
    margin-top: 150px;
 }
 .section-3 p {
-   color: rgb(255, 255, 255);
+   color: #ffffff;
    font-family: "Playfair Display", serif;
    font-size: 25px;
    margin-top: 30px;
 }
 .section-3 h4 {
-   color: rgb(255, 255, 255);
+   color: #ffffff;
    font-family: "Roboto", sans-serif;
    margin-top: 40px;
 }
 .section-3 h5 {
-   color: rgb(255, 255, 255);
+   color: #ffffff;
    font-family: "Playfair Display", serif;
    font-size: 20px;
    margin-top: 10px;
@@ -174,23 +174,28 @@ ul li {
 .sec4-form hr {
    width: 20%;
    height: 2px;
-   background: black;
+   background: #000000;
    margin-bottom: 50px;
 }
 .sec4-form input {
    height: 40px;
    width: 100%;
    margin-top: 10px;
-   border: solid #adacac 1px;
+   border: solid #adadad 1px;
+   padding-left: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
    font-size: 20px;
    margin-bottom: 20px;
    font-family: "Playfair Display", serif;
 }
 .sec4-form textarea {
-   height: 150px;
+   height: 100px;
    width: 100%;
    margin-top: 10px;
-   border: solid #adacac 1px;
+   padding-left: 15px;
+   padding-top: 10px;
+   border: solid #adadad 1px;
    font-size: 20px;
    margin-bottom: 20px;
    font-family: "Playfair Display", serif;
@@ -201,14 +206,14 @@ ul li {
    padding-top: 10px;
 }
 .touchbtn {
-   background-color: white;
-   color: black;
+   background-color: #ffffff;
+   color: #000000;
    border: 2px solid #252525;
    padding: 15px 32px;
 }
 .sec4-form button {
-   background-color: white;
-   color: black;
+   background-color: #ffffff;
+   color: #000000;
    border: 1px solid #252525;
    padding: 25px 45px;
 }
@@ -244,7 +249,7 @@ ul li {
 .info button {
    background-color: transparent;
    font-family: "Roboto", sans-serif;
-   color: white;
+   color: #ffffff;
    border: 1px solid #ffffff;
    padding: 20px 50px;
    margin-left: 80px;
@@ -257,7 +262,7 @@ ul li {
 }
 .ftmenu {
    width: 25%;
-   color: white;
+   color: #ffffff;
    font-size: 15px;
 }
 .ftmenu p {
@@ -281,7 +286,7 @@ ul li {
    margin-left: 50px;
 }
 .logos i {
-   color: white;
+   color: #ffffff;
    background: #494949;
    padding: 10px;
    border-radius: 50%;
@@ -299,7 +304,7 @@ ul li {
 .bar {
    height: 2px;
    width: 100%;
-   background-color: black;
+   background-color: #000000;
    border-radius: 10px;
 }
 /* ---media query--- */
