@@ -3,7 +3,7 @@
    padding: 0;
 }
 .container {
-   margin: 25px 50px;
+   margin: 23px 0px;
    justify-content: space-between;
    display: flex;
    width: 80%;
@@ -17,16 +17,19 @@
    display: flex;
    justify-content: center;
 }
+.logo img {
+   height: 40px;
+   width: 123px;
+}
 .section-1 {
    height: 600px;
    background-image: url("/images/details_banner.png");
    display: flex;
    justify-content: center;
    align-items: center;
+   text-align: center;
 }
 .headfont {
-   text-align: center;
-   margin-left: 100px;
 }
 .headfont h1 {
    font-family: "Roboto", sans-serif;
@@ -37,7 +40,7 @@
    font-family: "Playfair Display", serif;
    color: white;
    font-size: 20px;
-   text-align: center;
+   justify-content: center;
 }
 ul {
    text-align: center;
@@ -87,6 +90,7 @@ ul li {
    font-family: "Roboto", sans-serif;
    color: black;
    text-align: center;
+   font-size: 45px;
    margin-top: 10px;
 }
 .aboutusImg {
@@ -287,8 +291,8 @@ ul li {
    position: relative;
    flex-direction: column;
    justify-content: space-between;
-   width: 40px;
-   height: 30px;
+   width: 35px;
+   height: 25px;
    display: none;
    margin-top: 10px;
 }
@@ -296,7 +300,7 @@ ul li {
    height: 2px;
    width: 100%;
    background-color: black;
-   margin-bottom: 10px;
+   border-radius: 10px;
 }
 /* ---media query--- */
 @media (min-width: 500px) and (max-width: 950px) {
@@ -307,16 +311,20 @@ ul li {
       display: none;
    }
    .header-more {
-      float: right;
-      display: block;
+      display: flex;
+   }
+   .logo img {
+      height: 40px;
+      width: 105px;
    }
    .headfont h1 {
       font-size: 40px;
    }
    .headfont p {
       font-size: 20px;
-      text-align: center;
-      margin: 0%;
+   }
+   .headfont {
+      margin-left: 50px;
    }
 }
 @media (max-width: 500px) {
@@ -327,9 +335,8 @@ ul li {
       display: none;
    }
    .header-more {
-      float: right;
-      display: block;
-      height: 10px;
-      width: 15px;
+      display: flex;
+      height: 18px;
+      width: 20px;
    }
 }
