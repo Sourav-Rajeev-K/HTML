@@ -206,6 +206,9 @@ ul li {
    justify-content: space-between;
    padding-top: 10px;
 }
+.buttons a:hover {
+   color: #adadad;
+}
 .touchbtn {
    background-color: #ffffff;
    color: #000000;
@@ -311,7 +314,12 @@ ul li {
    background-color: #000000;
    border-radius: 10px;
 }
-
+.menu {
+   display: none;
+}
+.menu-btn {
+   display: none;
+}
 /* ---media query--- */
 @media (min-width: 481px) and (max-width: 768px) {
    .buttons {
@@ -322,6 +330,8 @@ ul li {
    }
    .header-more {
       display: flex;
+      margin-left: 400px;
+      width: 100%;
    }
    .logo img {
       height: 40px;
@@ -405,9 +415,22 @@ ul li {
    }
    .header ul {
       overflow: hidden;
+      margin-top: 80px;
+      text-align: left;
+   }
+   .menu a {
+      width: 100%;
+      margin-right: 2000px;
+      text-decoration: none;
+      color: #000000;
+   }
+   .menu a:hover {
+      color: #686868;
    }
    .menu {
       max-height: 0;
+      display: flex;
+      flex-direction: column;
    }
    .header .menu-btn:checked ~ .menu {
       max-height: 260px;
