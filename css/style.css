@@ -129,6 +129,10 @@ ul li {
 .section-3 img {
    width: 8%;
    margin-top: 150px;
+   margin-left: 47%;
+}
+.carousel-indicators li {
+   color: #000000;
 }
 .section-3 p {
    color: #ffffff;
@@ -147,6 +151,9 @@ ul li {
    font-size: 20px;
    margin-top: 10px;
    padding-bottom: 220px;
+}
+item active {
+   text-align: center;
 }
 .section-4 {
    padding: 140px 120px;
