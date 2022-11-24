@@ -149,9 +149,6 @@ ul li {
    margin-top: 10px;
    padding-bottom: 220px;
 }
-item active {
-   text-align: center;
-}
 .section-4 {
    padding: 140px 120px;
    display: flex;
@@ -226,7 +223,6 @@ item active {
    padding: 25px 45px;
 }
 .footer {
-   height: 500px;
    background-image: url("/images/footer-bg.png");
    padding: 200px 100px;
    display: flex;
@@ -334,8 +330,28 @@ item active {
    }
    .header-more {
       display: flex;
-      margin-left: 400px;
-      width: 100%;
+      float: right;
+      margin-left: auto;
+   }
+   .header ul {
+      overflow: hidden;
+      margin-top: 50px;
+   }
+   .menu a {
+      text-decoration: none;
+      color: #000000;
+      float: left;
+   }
+   .menu a:hover {
+      color: #686868;
+   }
+   .menu {
+      max-height: 0;
+      display: flex;
+      flex-direction: column;
+   }
+   .header .menu-btn:checked ~ .menu {
+      max-height: 280px;
    }
    .logo img {
       height: 40px;
@@ -425,27 +441,51 @@ item active {
       font-size: 12px;
       margin-bottom: 20px;
    }
-   .header ul {
-      overflow: hidden;
-      margin-top: 80px;
-      text-align: left;
+   .footer {
+      padding: 60px 20px;
    }
-   .menu a {
-      width: 100%;
-      margin-right: 2000px;
-      text-decoration: none;
-      color: #000000;
+   .logos {
+      height: 250px;
+      width: 20%;
    }
-   .menu a:hover {
-      color: #686868;
+   .logos img {
+      margin-left: 10px;
    }
-   .menu {
-      max-height: 0;
+   .soclogo {
+      margin-top: 20px;
+      margin-left: 0px;
+   }
+   .logos i {
+      color: #ffffff;
+      background: #494949;
+      padding: 7px;
+      border-radius: 50%;
+      margin-left: 8px;
+   }
+   .right-info {
+      margin-left: 30px;
+   }
+   .info {
+      display: inline-block;
+      height: auto;
+   }
+   .info h1 {
+      font-size: 30px;
+      margin-top: 0;
+   }
+   .info p {
+      font-size: 18px;
+   }
+   .info button {
+      padding: 10px 25px;
+      margin-left: 0px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-size: 14px;
+   }
+   .foot-menu-bar {
       display: flex;
-      flex-direction: column;
-   }
-   .header .menu-btn:checked ~ .menu {
-      max-height: 260px;
+      margin-top: 60px;
    }
 }
 @media (max-width: 500px) {
@@ -459,5 +499,83 @@ item active {
       display: flex;
       height: 18px;
       width: 20px;
+   }
+   .headfont h1 {
+      font-size: 40px;
+      font-weight: bolder;
+   }
+   .headfont p {
+      font-size: 15px;
+   }
+   .headfont {
+      margin-left: 40px;
+   }
+   .aboutusImg {
+      flex-direction: column;
+   }
+   .section-3 {
+      height: auto;
+      text-align: center;
+   }
+   .section-3 img {
+      width: 20%;
+      margin-top: 100px;
+      margin-left: 42%;
+   }
+   .section-3 h5 {
+      padding-bottom: 100px;
+      font-size: 18px;
+   }
+   .section-3 h4 {
+      font-size: 20px;
+   }
+   .section-3 p {
+      font-size: 25px;
+   }
+   .section-4 {
+      display: flex;
+      flex-direction: column;
+      padding: 30px 20px;
+   }
+   .section-4 img {
+      width: auto;
+      height: auto;
+      margin-top: 0px;
+   }
+   .sec4-form {
+      width: auto;
+   }
+   .sec4-form input {
+      height: 40px;
+      font-size: 15px;
+      margin-top: 5px;
+      padding-left: 8px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      margin-bottom: 15px;
+   }
+   .sec4-form button {
+      padding: 20px 35px;
+   }
+   .footer {
+      flex-direction: column;
+   }
+   .logos {
+      width: 100%;
+      height: auto;
+   }
+   .right-info {
+      margin-left: 5px;
+      margin-top: 20px;
+   }
+   .foot-menu-bar {
+      flex-direction: column;
+      margin-top: 30px;
+   }
+   .ftmenu ul {
+      margin-top: 5px;
+   }
+   .ftmenu li:hover {
+      color: #ffffff;
    }
 }
