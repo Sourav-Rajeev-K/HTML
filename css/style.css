@@ -223,7 +223,7 @@ ul li {
    padding: 25px 45px;
 }
 .footer {
-   background-image: url("/images/footer-bg.png");
+   background-image: url("../images/footer-bg.png");
    padding: 200px 100px;
    display: flex;
 }
