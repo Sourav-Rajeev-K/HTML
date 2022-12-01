@@ -351,7 +351,7 @@ ul li {
       flex-direction: column;
    }
    .header .menu-btn:checked ~ .menu {
-      max-height: 280px;
+      max-height: max-content;
    }
    .logo img {
       height: 40px;
@@ -362,14 +362,13 @@ ul li {
       background-color: #ffffff;
    }
    .more-dpdn:hover ul {
-      display: block;
-      position: absolute;
+      display: flex;
+      flex-direction: column;
+      position: relative;
    }
    .more-dpdn:hover li {
-      display: block;
-      text-align: center;
-      margin-top: 28px;
-      padding-right: 25px;
+      display: flex;
+      flex-direction: column;
    }
    .headfont h1 {
       font-size: 40px;
