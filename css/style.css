@@ -357,6 +357,20 @@ ul li {
       height: 40px;
       width: 105px;
    }
+   .more-dpdn ul {
+      display: none;
+      background-color: #ffffff;
+   }
+   .more-dpdn:hover ul {
+      display: block;
+      position: absolute;
+   }
+   .more-dpdn:hover li {
+      display: block;
+      text-align: center;
+      margin-top: 28px;
+      padding-right: 25px;
+   }
    .headfont h1 {
       font-size: 40px;
    }
