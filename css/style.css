@@ -209,6 +209,7 @@ ul li {
 }
 .buttons a:hover {
    color: #adadad;
+   text-decoration: none;
 }
 .touchbtn {
    background-color: #ffffff;
@@ -353,36 +354,12 @@ ul li {
       background-color: #ffffff;
       transition: all 300ms;
    }
-   .menu li:hover {
-      text-decoration: none;
-      color: #888888;
-   }
    #menu-btn:checked ~ .menu {
       margin-left: 60%;
    }
    #menu-btn:checked ~ label i::before {
       content: "\f00d";
    }
-   /* .header ul {
-      overflow: hidden;
-      margin-top: 50px;
-   } */
-   /* .menu a {
-      text-decoration: none;
-      color: #000000;
-      float: left;
-   }
-   .menu a:hover {
-      color: #686868;
-   }
-   .menu {
-      max-height: 0;
-      display: flex;
-      flex-direction: column;
-   }
-   .header .menu-btn:checked ~ .menu {
-      max-height: max-content;
-   } */
    .logo img {
       height: 40px;
       width: 105px;
@@ -390,15 +367,23 @@ ul li {
    .more-dpdn ul {
       display: none;
       background-color: #ffffff;
+      padding-right: 10px;
    }
    .more-dpdn:hover ul {
       display: flex;
       flex-direction: column;
-      position: relative;
+      position: absolute;
    }
    .more-dpdn:hover li {
       display: flex;
       flex-direction: column;
+      padding-right: 40px;
+   }
+   .menu a:hover {
+      text-decoration: solid;
+      color: #adadad;
+      font-size: 11px;
+      font-weight: bold;
    }
    .headfont h1 {
       font-size: 40px;
